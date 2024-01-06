@@ -56,7 +56,7 @@ async void JustACallingMethod()
         int result = await GetPrimeCountAsync(temp * 1000000 + 2, 1000000);
         Console.WriteLine(result + " primes between " + (temp * 1000000) + " and " + ((temp + 1) * 1000000 - 1));
     }
-    Console.WriteLine("method done");
+    Console.WriteLine("method done!!");
 }
 
 JustACallingMethod();
